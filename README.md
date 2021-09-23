@@ -1,2 +1,2 @@
-# RuletaJuego
-Proyecto Ruleta de juegos, prueba técnica (Masivian)
+# Autenticación
+Proyecto API y Windows Form, prueba técnica
