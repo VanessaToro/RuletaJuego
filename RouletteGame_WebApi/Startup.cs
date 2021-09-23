@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using RouletteGame_WebApi.Models;
 
 namespace RouletteGame_WebApi
 {
@@ -34,8 +35,8 @@ namespace RouletteGame_WebApi
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RouletteGame_WebApi", Version = "v1" });
             });
 
-            services.AddDbContext<RouletteGameContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("RouletteGameContext")));
+            services.AddDbContext<AutenticacionContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("AutenticacionContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
