@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Net;
 using System.Web.Script.Serialization;
@@ -7,9 +9,9 @@ namespace Autentication_FormsApp.Service
 {
     public class LlamarAPI
     {
-        public object Ejecutar<T>(string url, T objectRequest, string method = "POST")
+        public Object Ejecutar<T>(string url, T objectRequest, string method = "POST")
         {
-            object respuesta = new object();
+            Object respuesta = new object();
 
             try
             {

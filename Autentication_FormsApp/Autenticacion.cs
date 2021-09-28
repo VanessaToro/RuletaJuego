@@ -26,8 +26,16 @@ namespace Autentication_FormsApp
                 usuario = txtUsuario.Text,
                 clave = txtClave.Text
                 };
-            
-            object respuesta = api.Ejecutar<Object>(url, peticion, "POST");
+
+            Object respuesta = api.Ejecutar<Object>(url, peticion, "POST");
+
+            if(respuesta != null)
+            {
+                var formInicio = new Inicio(respuesta);
+                formInicio.Closed += (s, args) => this.Close();
+                formInicio.Show();
+            }
+
         }
     }
 }

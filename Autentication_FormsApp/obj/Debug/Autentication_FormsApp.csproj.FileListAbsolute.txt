@@ -11,3 +11,5 @@ C:\Users\ytoro\source\repos\YanethVanessaToroRodriguez\Autentication_FormsApp\ob
 C:\Users\ytoro\source\repos\YanethVanessaToroRodriguez\Autentication_FormsApp\obj\Debug\Autentication_FormsApp.csproj.CopyComplete
 C:\Users\ytoro\source\repos\YanethVanessaToroRodriguez\Autentication_FormsApp\obj\Debug\Autentication_FormsApp.exe
 C:\Users\ytoro\source\repos\YanethVanessaToroRodriguez\Autentication_FormsApp\obj\Debug\Autentication_FormsApp.pdb
+C:\Users\ytoro\source\repos\YanethVanessaToroRodriguez\Autentication_FormsApp\obj\Debug\Autentication_FormsApp.Inicio.resources
+C:\Users\ytoro\source\repos\YanethVanessaToroRodriguez\Autentication_FormsApp\obj\Debug\Autentication_FormsApp.Usuario.resources
